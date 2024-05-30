@@ -1,0 +1,81 @@
+
+.about{
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+  /* height: 80vh; */
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  
+}
+
+
+.personal-info{
+  padding: 20px 0;
+  z-index: 1;
+  margin: 3.5rem 0;
+  /* background-color: transparent; */
+  /* width: 50%; */
+  
+}
+.personal-info h1{
+ font-weight: 200;
+ font-size: 30px;
+}
+.personal-info h3{
+  padding: 20px 0;
+  line-height: 55px;
+  font-size: 2.5rem;
+}
+.personal-info span{
+  color: gold;
+}
+.personal-info p{
+  font-size: 18px;
+  font-weight: 300;
+  margin: 20px 0;
+  line-height: 33px;
+}
+.personal-info .hire-me{
+  /* margin: 20px 0; */
+  
+}
+.personal-info .hire-me button{
+  padding: 15px 40px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: .5s;
+  font-size: 20px;
+}
+.personal-info .hire-me button:hover{
+  background-color: yellow;
+  transform: scale(1.1);
+}
+.personal-img{
+  position: absolute;
+  top: 1rem;
+  right: 5%;
+  /* width: 40%; */
+  /* z-index: 1; */
+}
+
+@media screen and (max-width:1200px) {
+
+  
+  .personal-info h1{
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 2rem;
+   }
+   .personal-info h3{
+    padding: 10px 0;
+    line-height: 40px;
+    font-size: 1.5rem;
+  }
+
+  
+ }

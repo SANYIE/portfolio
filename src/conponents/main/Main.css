@@ -1,0 +1,149 @@
+.main{
+  width: 100%;
+  max-width: 80%;
+  /* height: 100vh; */
+  /* text-align: center; */
+  margin: auto;
+}
+
+.what-i-do{
+  margin-top: 20px;
+  text-align: center;
+  /* width: 80%; */
+  margin: auto;
+}
+
+.what-i-do h1{
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(80, 75, 75);
+}
+.what-i-do p{
+  font-size: 18px;
+  font-weight: 300;
+  margin: 20px 0;
+  line-height: 33px;
+  font-family: "Outfit", sans-serif;;
+}
+
+.three-div{
+  /* width: 80%; */
+  text-align: center;
+  margin: auto;
+}
+.design{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  height: auto;
+  background-color: rgb(18, 17, 17);
+  padding: 20px 5px;
+}
+.design img{
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+.design h2{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.portfolio h1{
+  /* text-decoration: underline; */
+  border-bottom: 1px solid rgb(80, 75, 75) ;
+}
+.my-portfolio{
+  text-align: center;
+  margin: auto;
+  margin-top: 4rem;
+}
+.my-portfolio h1{
+  padding: 15px 0;
+}
+.my-portfolio p{
+  padding: 10px 0;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.portfolio-image{
+ margin-top: 3rem;
+}
+
+.port-images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+ 
+}
+.port-images img{
+  width: 250px;
+  margin: 5px;
+
+}
+
+.form{
+ background-color: rgb(12, 12, 12);
+ padding: 25px 10px;
+ width: 100%;
+ max-width: 90%;
+ margin: auto;
+ margin-bottom: 2rem;
+ margin-top: 2rem;
+}
+.form-inner{
+ display: flex;
+ flex-direction: column;
+}
+.form-inner input{
+  border: none;
+  padding: 10px;
+  margin: 2px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+.form-inner textarea{
+  border-radius: 5px;
+  display: flex;
+  padding: 10px 0;
+  margin: 2px 0;
+  font-size: 18px;
+  outline: none;
+}
+.form-inner textarea::placeholder{
+ padding: 6px;
+  
+}
+.btn{
+  text-align: left;
+
+}
+.btn button{
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 0;
+  transition: .5s;
+  font-size: 16px;
+
+}
+.btn button:hover{
+  background-color: lightgreen;
+  transform: scale(1.1);
+}
+
+.footer{
+  /* background-color: rgb(12, 12, 12); */
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  max-width: 90%;
+}
+.footer-inner{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
